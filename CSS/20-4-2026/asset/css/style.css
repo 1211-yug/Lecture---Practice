@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.heading1{
+	width: 500px;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+	border: 2px solid skyblue;
+	margin: 20px;
+}
+
+.notification{
+	font-weight: 700;
+}
+
+.heading2{
+	width: 610px;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+	border: 2px solid skyblue;
+	margin: 20px;
+}
+
+.feedback{
+	background: lightyellow;
+}
+
+.btn{
+	padding: 10px;
+	margin: 10px;
+	color: black;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background: lightgreen;
+	cursor: pointer;
+}

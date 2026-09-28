@@ -1,0 +1,12 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+.searchInput {
+    border: 1px solid #979797;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    padding-inline: 20px;
+}

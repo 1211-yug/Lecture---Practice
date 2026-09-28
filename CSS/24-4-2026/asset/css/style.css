@@ -1,0 +1,64 @@
+a[target^="_"],a:nth-last-of-type(2){
+    color: red;
+    background-color: yellow;
+}
+
+body > h1:nth-child(3), body > h1:nth-child(6), body > h1:nth-child(14), body > h1:nth-child(19){
+    color: red;
+    background-color: yellow;
+}
+
+section h1:last-child{
+    color: red;
+    background-color: yellow;
+}
+
+div li h1{
+    color: red;
+    background-color: yellow;
+}
+
+input[type="text"]{
+    color: red;
+    background-color: yellow;
+}
+
+h1[class*="g"], h1[class$="d"], h1[class="h1"]{
+    color: red;
+    background-color: yellow;
+}
+
+div:first-child > h1:last-of-type {
+    color: red;
+    background-color: yellow;
+}
+
+nav > h1:first-of-type {
+    color: red;
+    background-color: yellow;
+}
+
+div:nth-of-type(2) h1:nth-of-type(2){
+    color:red;
+	background-color: yellow;
+}
+
+div span p:nth-child(2), div span p:last-child{
+    color: red;
+    background-color: yellow;
+}
+
+div div > h1:first-child{
+    color: red;
+    background-color: yellow;
+}
+
+body > h1:last-of-type{
+    color: red;
+    background-color: yellow;
+}
+
+a[a]{
+    color: red;
+    background-color: yellow;
+}

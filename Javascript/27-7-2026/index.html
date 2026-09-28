@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="gu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sticky Header on Scroll</title>
+
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    
+    <!-- Sticky Header -->
+    <header id="myHeader">
+        <h1>MyLogo</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <!-- Scroll Progress Bar -->
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+
+    <div class="content">
+        <section data-aos="fade-up">
+            <h2>Section 1</h2>
+            <p id="pid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, saepe vitae sint nesciunt neque
+                quasi,
+                voluptate perferendis et repellendus quia est quam in voluptatibus autem natus sit consectetur.</p>
+        </section>
+        <section data-aos="fade-up">
+            <h2>Section 2</h2>
+            <p id="pid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, saepe vitae sint nesciunt neque
+                quasi,
+                voluptate perferendis et repellendus quia est quam in voluptatibus autem natus sit consectetur.</p>
+        </section>
+        <section data-aos="fade-up">
+            <h2>Section 3</h2>
+            <p id="pid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, saepe vitae sint nesciunt neque
+                quasi,
+                voluptate perferendis et repellendus quia est quam in voluptatibus autem natus sit consectetur.</p>
+        </section>
+        <section data-aos="fade-up">
+            <h2>Section 4</h2>
+            <p id="pid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, saepe vitae sint nesciunt neque
+                quasi,
+                voluptate perferendis et repellendus quia est quam in voluptatibus autem natus sit consectetur.</p>
+        </section>
+        <section data-aos="fade-up">
+            <h2>Section 5</h2>
+            <p id="pid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, saepe vitae sint nesciunt neque
+                quasi,
+                voluptate perferendis et repellendus quia est quam in voluptatibus autem natus sit consectetur.</p>
+        </section>
+        <section data-aos="fade-up">
+            <h2>Section 6</h2>
+            <p id="pid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, saepe vitae sint nesciunt neque
+                quasi,
+                voluptate perferendis et repellendus quia est quam in voluptatibus autem natus sit consectetur.</p>
+        </section>
+    </div>
+
+    <!-- Back To Top Btn -->
+    <button id="back-To-Top" title="Go to top"><i class="fa-solid fa-arrow-up"></i> </button>
+
+    <!-- animation cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f3f3f3;
+}
+
+.main-container{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.contact{
+    display: inline-flex;
+    margin: 20px 470px;
+    p{
+        font-size: 15px;
+        color: gray;
+    }
+    select{
+        display: inline;
+        width: 150px;
+        height: 30px;
+        padding: 5px 10px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+}
+
+.select{
+    background-color: transparent;
+    color: #007C88;
+    border: none;
+    padding: 5px 10px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    max-width: 1300px;
+    margin: auto;
+    padding-inline: 20px;
+}
+
+
+.apply-text{
+    color: gray;
+    margin-top: -40px;
+}
+
+.card{
+    height: 800px;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    background: white;
+    div p{
+        font-size: 13px;
+        color: gray;
+    }
+    h3{
+        font-size: 13px;
+        color: gray;
+    }
+    .small{
+        color: gray;
+        font-size: 10px;
+    }
+    h4{
+        font-size: 33px;
+    }
+    ul{
+        list-style: none;
+        li{
+            line-height: 30px;
+        }
+    }
+    a{
+        color: #007C88;
+        text-decoration: none;
+    }
+   
+}
+
+.card ul li span{
+    color:#007C88;
+    margin-right:5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card button{
+    background-color:#007C88;
+    border:none;
+    display: block;
+    padding:20px;
+    color:white;
+    font-weight: bold;
+}

@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-block: 20px;
+    margin-inline: 100px;
+}
+
+h1 span{
+    color: purple;
+    text-decoration: underline purple;
+}
+
+.all-lang{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+    margin-inline: 100px;
+}
+
+.lang{
+    width: 320px;
+    height: 80px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin-block: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    margin-inline: 100px;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    margin-block: 10px;
+}
+
+.card img{
+    width: 398px;
+    height: 200px;
+}
+
+h4{
+    font-size: 21px;
+}
+
+.name{
+    color: rgb(94, 93, 93);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.rate{
+    font-weight: 800;
+    color: gray;
+}
+
+.rate span{
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 212, 59);
+}
+
+h3{
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 span{
+    color: gray;
+    font-size: 17px;
+}
+
+button{
+    color: white;
+    padding: 6px 15px;
+    border-radius: 5px;
+    background: rgb(54, 35, 143);
+    margin-top: 10px;
+    border: none;
+}
+
+span button{
+    color: greenyellow;
+    background-color: rgb(67, 131, 67);
+}
+
+.btn{
+    color: rgb(255, 103, 2);
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(252, 219, 178);
+    padding: 6px 15px;
+    margin-top: 10px;
+}

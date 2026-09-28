@@ -1,0 +1,30 @@
+# --- Node.js Dependencies ---
+node_modules/
+jspm_packages/
+web_modules/
+
+# --- Executable & Binary Files ---
+*.exe
+*.dll
+*.msi
+*.bin
+*.dmg
+
+# --- Compiled JavaScript & Build Outputs ---
+dist/
+build/
+out/
+.nc_build/
+tsclog.txt
+
+# --- Logs & Runtime Files ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment Secrets ---
+.env
+.env.local

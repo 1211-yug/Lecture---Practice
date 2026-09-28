@@ -1,0 +1,377 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+}
+
+.containar{
+    width: 1810px;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.nav{
+    width: 1810px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 21px;
+    position: fixed;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:#141414d4;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.nav ul li{
+    color: white;
+    display: inline-flex;
+    list-style: none;
+    margin-inline: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    gap: 5px;
+}
+
+.subscription{
+    padding-left: 20px;
+    border-left: 1px solid white;
+}
+
+.main-dropdown li a:hover{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.right-dropdown{
+    padding-bottom: 5px;
+}
+
+.lang{
+    position: relative;
+    padding-block: 15px;
+}
+
+.lang-dropdown li{
+    list-style: none;
+    padding: 8px 0;
+}
+
+.lang-dropdown{
+    display: none;
+    position: absolute;
+    top: 39px;
+    right: -70px;
+    background: #272727f6;
+    cursor: pointer;
+    width: 770px;
+    border-radius: 10px;
+    margin-block: 14px;
+    padding: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.lang:hover .lang-dropdown{
+    display: grid;
+}
+
+.user i{
+    font-size: 26px;
+    padding-block: 15px;
+    margin-block: 3px;
+}
+
+.user{
+    position: relative;
+}
+
+.user-dropdown{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10;
+    background: #272727f6;
+    cursor: pointer;
+    width: 166px;
+    border-radius: 10px;
+    margin-block: 14px;
+    padding: 20px;
+    line-height: 2;
+}
+
+.user:hover .user-dropdown{
+    display: block;
+}
+
+
+.menu{
+    padding-block: 21px;
+    padding-inline: 11px;
+    position: relative;
+}
+
+.menu-dropdown{
+    display: none;
+    position: absolute;
+    top: 57px;
+    right: -90px;
+    background: #272727f6;
+    cursor: pointer;
+    width: 710px;
+    border-radius: 10px;
+    padding: 28px 55px 12px 26px;
+    gap: 30px;
+}
+
+.block li{
+    width: 157px;
+    height: 40px;
+}
+
+.menu:hover .menu-dropdown{
+    display: flex;
+}
+
+.menu-dropdown ul li{
+    list-style: none;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.title{
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.right-menu {
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+
+.h-btn{
+    border-radius: 8px;
+    background-color: #299bf8;
+}
+
+.h-btn button{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 10px 15px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.h-btn:hover{
+    background-color: #57b3ff;
+    box-shadow: 0px 1px 11px 1px rgb(154, 214, 238);;
+}
+
+.main-container{
+    position: static;
+    margin-left: 80px;
+    margin-top: 65px;
+}
+
+.right-img img{
+    width: 880px;
+    height: 675px;
+    float: right;
+}
+
+.sign-title{
+    color: white;
+    width: 935px;
+    height: 675px;
+    padding-block: 80px;
+    background: #000000;
+}
+
+.sign-title h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-title p{
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-btn{
+    width: 230px;
+    height: 62px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 1s;
+}
+
+.sign-btn button{
+    background: transparent;
+    padding: 17px 15px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.sign-btn:hover{
+    color: rgb(58, 57, 57);
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
+.main-container2{
+    position: static;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+.right-img2 img{
+    width: 920px;
+    height: 675px;
+    float: right;
+}
+
+.sign-btn2{
+    width: 130px;
+    height: 62px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 1s;
+}
+
+.sign-btn2 button{
+    background: transparent;
+    padding: 16px 18px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.sign-btn2:hover{
+    color: rgb(58, 57, 57);
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
+.main-container3{
+    position: static;
+    width: 100%;
+    padding: 50px;
+    background-color: #00050D;
+}
+
+.fav_subs{
+    display: grid;
+    float: right;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fav_subs img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.fav_subs img:hover{
+    box-shadow: 1px 2px 11px -3px rgb(238, 243, 245);
+}
+
+.sign-title3{
+    color: white;
+    width: 935px;
+    height: 593px;
+    padding-block: 0px;
+}
+
+.sign-title3 p{
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+.f-container{
+    padding-block: 24px;
+    background-color: #222222;
+    text-align: center;
+}
+
+.f-logo img{
+    width: 105px;
+}
+.f-link{
+    margin-bottom: 7px;
+}
+
+.f-link a{
+    color: #48b3f5;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.f-copyright{
+    color: #5988A5;
+    font-size: 14px;
+}
+
+.main-container4{
+    position: static;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.sign-btn3{
+    width: 180px;
+    height: 62px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 1s;
+}
+
+.sign-btn3 button{
+    background: transparent;
+    padding: 17px 15px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.sign-btn3:hover{
+    color: rgb(58, 57, 57);
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    transform: scale(1.2);
+}

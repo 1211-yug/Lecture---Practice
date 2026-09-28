@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>jQuery Tasks Practice</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"
+        integrity="sha512-8LENNbXmzI/Gbj+OwXmqR6V4QaUAw0/porPzy1+dQoJqC0JPHedWoe0DDOTL2uHA5XXJyIsPtiMHH86pVlay6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Google Fonts for Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+    
+    <header class="app-header">
+        <h1>jQuery Tasks Practice</h1>
+        <p>Interactive DOM Manipulation Exercises</p>
+    </header>
+
+    <div class="container">
+        <!-- ======= Que 1. ====== -->
+        <div class="question-card">
+            <h2>Que 1. Check if jQuery is loaded</h2>
+            <p id="que1" class="status-text">Checking...</p>
+        </div>
+
+        <!-- ======= Que 2. ====== -->
+        <div class="question-card">
+            <h2>Que 2. Scroll to Top</h2>
+            <P>Scroll down the page and click the right bottom button to smoothly scroll to top.</P>
+        </div>
+
+        <!-- ======= Que 3. ====== -->
+        <div class="question-card">
+            <h2>Que 3. Animate width and height of a button</h2>
+            <button id="animateBtn" class="action-btn">Animate Button</button>
+        </div>
+
+        <!-- ======= Que 4. ====== -->
+        <div class="question-card">
+            <h2>Que 4. FadeIn your boxes</h2>
+            <button id="fadeBtn" class="action-btn">Fade Box In</button>
+            <div class="fadebox"></div>
+        </div>
+        
+        <!-- ======= Que 5. ====== -->
+        <div class="question-card">
+            <h2>Que 5. Clickable button after checking the box</h2>
+            <div class="checkbox-container">
+                <label class="custom-checkbox">
+                    <input type="checkbox" id="agreecheck"> 
+                    <span class="checkmark"></span>
+                    I Agree to the Terms
+                </label>
+                <button id="continueBtn" class="action-btn" disabled>Continue</button>
+            </div>
+        </div>
+        
+        <!-- ======= Que 6. ====== -->
+        <div class="question-card">
+            <h2>Que 6. Let Users print some documents</h2>
+            <button id="printBtn" class="action-btn">Print Page</button>
+        </div>
+
+        <!-- ======= Que 7. ====== -->
+        <div class="question-card">
+            <h2>Que 7. Limit username length</h2>
+            <p>Type a username (max 10 characters).</p>
+            <input type="text" id="username" class="custom-input" placeholder="Type a username...">
+        </div>
+
+        <!-- ======= Que 8. ====== -->
+        <div class="question-card empty">
+            <h2>Que 8. Forget to bold words_</h2>
+            <p class="forgetBold">This step is important. Read the important note before you continue — it's really important.</p>
+            <button id="note" class="action-btn">forget the bold word</button>
+        </div>
+
+        <!-- ======= Que 9. ====== -->
+        <div class="question-card">
+            <h2>Que 9. Adding new division</h2>
+            <div id="container">
+
+            </div>
+        </div>
+
+        <!-- ======= Que 10. ====== -->
+        <div class="question-card">
+            <h2>Que 10. Select values from a JSON object using jQuery</h2>
+            <!-- <p>Check your browser's console (F12) to see the student JSON object values printed!</p> -->
+            <ul id="list10">
+                <li id="li"></li>
+            </ul>
+        </div>
+
+        <!-- ======= Que 11. ====== -->
+        <div class="question-card">
+            <h2>Que 11. Add element within ul list</h2>
+            <ul id="list11">
+                <li>item-1</li>
+            </ul>
+        </div>
+
+        <!-- ======= Que 12. ====== -->
+        <div class="question-card">
+            <h2>Que 12. Know what user puts into textbox</h2>
+            <input type="text" id="textbox" class="custom-input"  placeholder="start typing....">
+            <p id="typed">You Typed:</p>
+        </div>
+
+        <!-- ======= Que 13. ====== -->
+        <div class="question-card">
+            <h2>Que 13. Change input value</h2>
+            <input type="text" id="field" class="custom-input" placeholder="Enter text here...">
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="topBtn"><i class="fa-solid fa-arrow-up-long"></i></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- animation cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1 class="title">Fetch</h1>
+
+    <div class="Api" data-aos="zoom-in">
+        <h2 class="maintitle">Dog API</h2>
+        <p class="para">A dog is a friendly, loyal, four-legged animal that
+            <br> people keep as a pet or helper.
+        </p>
+        <button class="btn" onclick="getDog()">Get Random Dog</button>
+        <div class="flex">
+            <div class="center" id="dogResult">
+            </div>
+            <div class="center" id="dogResult1">
+            </div>
+            <div class="center" id="dogResult2">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <hr>
+
+    <div class="Api" data-aos="zoom-in">
+        <h2 class="maintitle">Movie API</h2>
+
+        <p class="para">A great movie title sparks curiosity,<br> shows the genre, and is easy to remember
+        </p>
+
+        <button class="btn" onclick="getMovie()" data-aos="zoom-in">Get Random movie</button>
+
+        <div class="flex">
+
+            <div class="center" id="movieResult"> </div>
+
+            <div class="center" id="movieResult1"> </div>
+
+            <div class="center" id="movieResult2"> </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+    <hr>
+
+    <div class="Api" data-aos="zoom-in">
+
+        <h2 class="maintitle">Corona API</h2>
+    
+        <p class="para">Enter country to get COVID-19 report.</p>
+    
+        <div class="flex1">
+
+            <input type="text" id="country" placeholder="Enter country name">
+        
+            <button class="btn" id="getInfo" onclick="getInfo()">Get Info</button>
+        </div>
+    
+        <h2 id="countryHeader"></h2>
+    
+        <ul>
+            <li id="population"></li>    
+            <li id="totalCases"></li>    
+            <li id="recovered"></li>    
+            <li id="activeCase"></li>    
+            <li id="criticalCase"></li>    
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

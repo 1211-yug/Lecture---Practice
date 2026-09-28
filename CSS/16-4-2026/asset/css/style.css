@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+	background: lightgray;
+}
+
+h1{
+	font-family: "Fredoka", sans-serif;
+	font-weight: 600;
+}
+
+h2{
+	color: #555E50;
+	font-family: "Fredoka", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+h3{
+	text-decoration: underline;
+	font-size: 23px;
+	font-family: "Fredoka", sans-serif;
+	font-weight: 500;
+}
+
+p{
+	font-family: "Fredoka", sans-serif;
+	line-height: 25px;
+}

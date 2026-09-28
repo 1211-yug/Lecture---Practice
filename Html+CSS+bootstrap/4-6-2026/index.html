@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Components</title>
+
+    <!-- Bootstrap icon cdn -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Breadcrumb -->
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Dashboard</li>
+                </ol>
+            </nav>
+            <div>
+                <input type="date" name="" id="" class="border p-2 rounded">
+            </div>
+        </div>
+
+        <!-- Performance Card -->
+        <div class="row">
+
+            <div class="col-12 col-md-3 d-flex border text-white p-3 rounded justify-content-around align-items-center"
+                style="background-color: #5B3ABD;">
+                <div class="icon">
+                    <i class="bi bi-bag fs-2"></i>
+                </div>
+                <div>
+                    <small>Total Orders</small>
+                    <h3>1,248</h3>
+                    <small>12.5% form Last week</small>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 d-flex border text-white p-3 rounded justify-content-around align-items-center"
+                style="background-color: #2BAC58;">
+                <div class="icon">
+                    <i class="bi bi-people fs-2"></i>
+                </div>
+                <div>
+                    <small>Total Customers</small>
+                    <h3>1211</h3>
+                    <small>8.3% form Last week</small>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 d-flex border text-white p-3 rounded justify-content-around align-items-center"
+                style="background-color: #FDB502;">
+                <div class="icon">
+                    <i class="bi bi-currency-dollar fs-2"></i>
+                </div>
+                <div>
+                    <small>Total Revenue</small>
+                    <h3>$26,958</h3>
+                    <small>15.7% form Last week</small>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 d-flex border text-white p-3 rounded justify-content-around align-items-center"
+                style="background-color: #2A6BE0;">
+                <div class="icon">
+                    <i class="bi bi-box-seam-fill fs-2"></i>
+                </div>
+                <div>
+                    <small>Product</small>
+                    <h3>746</h3>
+                    <small>5.4% form Last week</small>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row my-4">
+            <!-- Alert -->
+            <div class="col-12 col-md-6">
+                <h3 class="mb-4">Alert</h3>
+                <div class="alert alert-primary d-flex align-items-center" role="alert">
+                    <i class="bi bi-info-circle me-2"></i>
+                    <div>
+                        <h4> Info! </h4>
+                        <p>An example alert with an icon</p>
+                    </div>
+                </div>
+                <div class="alert alert-success d-flex align-items-center" role="alert">
+                    <i class="bi bi-check-circle me-2"></i>
+                    <div>
+                        <h4> Success </h4>
+                        <p>An example success alert with an icon</p>
+                    </div>
+                </div>
+                <div class="alert alert-warning d-flex align-items-center" role="alert">
+                    <i class="bi bi-exclamation-triangle me-2"></i>
+                    <div>
+                        <h4> Warning </h4>
+                        <p>An example warning alert with an icon</p>
+                    </div>
+                </div>
+                <div class="alert alert-danger d-flex align-items-center" role="alert">
+                    <i class="bi bi-check-circle me-2"></i>
+                    <div>
+                        <h4> Danger </h4>
+                        <p>An example danger alert with an icon</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Orders Overview -->
+            <div class="col-12 col-md-6">
+                <h3 class="mb-4">Orders Overview</h3>
+                <div class="row d-flex">
+                    <div class="col">
+                        <h6>Order ID</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Customer</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Date</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Status</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Amount</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row d-flex align-items-center">
+                    <div class="col">
+                        <h6>#ORD-001</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Yug Patel</h6>
+                    </div>
+                    <div class="col">
+                        <h6>May 26, 2026</h6>
+                    </div>
+                    <div class="col">
+                        <h6 class="btn bg-success text-white">Delivered</h6>
+                    </div>
+                    <div class="col">
+                        <h6>$125.00</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row d-flex align-items-center">
+                    <div class="col">
+                        <h6>#ORD-002</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Prince Nai</h6>
+                    </div>
+                    <div class="col">
+                        <h6>April 12, 2026</h6>
+                    </div>
+                    <div class="col">
+                        <h6 class="btn bg-danger text-white">Cancelied</h6>
+                    </div>
+                    <div class="col">
+                        <h6>$155.00</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row d-flex align-items-center">
+                    <div class="col">
+                        <h6>#ORD-003</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Mayur Rakholiya</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Dec 23, 2025</h6>
+                    </div>
+                    <div class="col">
+                        <h6 class="btn bg-primary text-white">Processing</h6>
+                    </div>
+                    <div class="col">
+                        <h6>$115.00</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row d-flex align-items-center">
+                    <div class="col">
+                        <h6>#ORD-004</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Ayush Dhudhat</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Nov 06, 2025</h6>
+                    </div>
+                    <div class="col">
+                        <h6 class="btn text-white" style="background-color: #5B3ABD;">Shipped</h6>
+                    </div>
+                    <div class="col">
+                        <h6>$185.00</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row d-flex align-items-center">
+                    <div class="col">
+                        <h6>#ORD-005</h6>
+                    </div>
+                    <div class="col">
+                        <h6>Akshat KHumbhani</h6>
+                    </div>
+                    <div class="col">
+                        <h6>May 27, 2024</h6>
+                    </div>
+                    <div class="col">
+                        <h6 class="btn bg-success text-white">Delivered</h6>
+                    </div>
+                    <div class="col">
+                        <h6>$175.00</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="btn text-white" style="background-color: #5B3ABD;">View All Orders</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Accordion -->
+            <div class="col-12 col-md-3 card p-3 bg-light">
+                <h3 class="mb-4">Accordion</h3>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-controls="flush-collapseOne">
+                                Order Details
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse">
+                            <div class="accordion-body">View complete order information including customer details,
+                                shipping address, payment status, and delivery timeline.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-controls="flush-collapseTwo">
+                                Shipping Information
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">Track shipment progress, courier partner details, estimated
+                                delivery date, and package status updates.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-controls="flush-collapseThree">
+                                Customer Support
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">Need help with your order? Contact our support team for returns,
+                                refunds, exchanges, or general assistance.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Badge -->
+            <div class="col-12 col-md-3 card p-3 bg-light">
+                <h3 class="mb-4">Badge</h3>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-primary">
+                        Notifications <span class="badge text-bg-secondary">4</span>
+                    </button>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-primary position-relative">
+                        Inbox
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle badge rounded bg-danger">99+</span>
+                    </button>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-primary position-relative">
+                        Profile
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"></span>
+                    </button>
+                </div>
+                <div class="mb-3">
+                    <span class="badge text-bg-primary p-2">Primary</span>
+                    <span class="badge text-bg-secondary p-2">Secondary</span>
+                    <span class="badge text-bg-success p-2">Success</span>
+                    <span class="badge text-bg-danger p-2">Danger</span>
+                </div>
+            </div>
+
+            <!-- Button & Button group -->
+            <div class="col-12 col-md-3 card p-3 bg-light">
+                <h3 class="mb-4">Button & Button group</h3>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-danger">Danger</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-light">Light</button>
+                </div>
+                <div class="mb-3">
+                    <a class="btn btn-primary" href="#" role="button">Link</a>
+                    <input class="btn btn-primary" type="button" value="Input">
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <input class="btn btn-primary" type="reset" value="Reset">
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    <button type="button" class="btn btn-outline-success">Success</button>
+                </div>
+                <div class="btn-group mb-3" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">Left</button>
+                    <button type="button" class="btn btn-primary">Middle</button>
+                    <button type="button" class="btn btn-primary">Right</button>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 19rem;">
+                    <img src="https://plus.unsplash.com/premium_photo-1682141878168-5dace8e1785d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGMlMjBzZXR1cHxlbnwwfHwwfHx8MA%3D%3D"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pc Setup</h5>
+                        <p class="card-text">999+ Pc Setup Pictures | Download Free Images on Unsplash</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-light text-secondary py-3 mt-5">
+        <div class="text-center">
+            <p class="mb-0">
+                © 2026 Yug Patel. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    animation-name: night;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes night{
+    0%{
+        background-color: rgb(220, 219, 219);
+    }
+    20%{
+        background-color: rgb(153, 137, 131);
+    }
+    40%{
+        background-color: rgb(72, 58, 54);
+    }
+    60%{
+        background-color: rgb(52, 37, 32);
+    }
+    80%{
+        background-color: rgb(148, 139, 136);
+    }
+    100%{
+        background-color: rgb(220, 219, 219);
+    }
+}
+
+.animation{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.mountain img{
+    width: 100%;
+    height: 461px;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    display: block;
+}
+
+.sun{
+    width: 150px;
+    height: 150px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 38%;
+    top: 60%;
+    transform: translateX(-50%);
+    z-index: 1;
+    animation-name: running;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes running{
+    0%{ 
+        background-color: yellow;
+        transform: translateX(-60px);
+        box-shadow: 5px 5px 15px rgb(240, 161, 76);
+    }
+    50%{
+        background-color: rgb(203, 203, 64);
+        transform: translate(-900px, -800px);
+    }
+    100%{
+        background-color: rgb(220, 220, 220);
+        transform: translateX(-800px, 0px);
+        box-shadow: 5px 5px 15px white;
+    }
+}
+
+
+.cloud-left{
+    position: relative;
+    top: 100px;
+    z-index: 3;
+    animation-name: cloudleft;
+    animation-direction: alternate;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloudleft{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(1920px);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+}
+
+.cloud-right{
+    position: relative;
+    float: right;
+    top: -80px;
+    z-index: 4;
+    animation-name: cloudright;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloudright{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(260px);
+    }
+}

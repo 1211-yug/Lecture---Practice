@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding-block: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(176, 89, 247);
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 30px;
+    margin-inline: 80px;
+}
+
+.card{
+    width: 250px;
+    height: 200px;
+    background-color:  rgb(223, 203, 240);
+    border-radius: 20px;
+    text-align: center;
+    padding-block: 24px;
+}
+
+.card i{
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+.card h3,p{
+    padding-block: 3px;
+    font-size: 20px;
+}
+
+h4{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    margin-block: 40px;
+}

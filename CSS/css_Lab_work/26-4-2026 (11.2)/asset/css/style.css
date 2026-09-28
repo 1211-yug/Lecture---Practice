@@ -1,0 +1,115 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Google Sans", sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding-block: 30px;
+}
+
+.sidebar{
+    float: left;
+    width: 250px;
+    height: 1000px;
+    background-color: rgb(247, 249, 251);
+    border-radius: 2px;
+    padding: 30px 10px;
+    border: 1px solid gray;
+}
+
+ul li{
+    font-weight: 500;
+}
+
+.s-1{
+    color: blue;
+}
+
+.sidebar > h3{
+    font-size: 22px;
+}
+
+.sidebar > ul{
+    margin: 20px 50px;
+}
+
+.sidebar ul li{
+    margin-bottom: -10px;
+}
+
+.mainbar{
+    width: 1575px;
+    height: 1000px;
+    background-color: rgb(247, 249, 251);
+    border: 1px solid gray;
+    border-radius: 2px;
+    float: right;
+    padding: 25px 10px;
+}
+
+.mainbar > h3{
+    font-size: 22px;
+}
+
+.mainbar > p::first-letter{
+    font-size: 35px;
+    color: rgb(244, 55, 55);
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.mainbar > p{
+    text-transform: uppercase;
+    margin-block: 15px;
+}
+
+.mainbar > p::selection{
+    background-color: yellow;
+    color: red;
+}
+
+.mainbar > img{
+    border: 2px solid black;
+}
+.mainbar ul{
+    margin-top: 30px;
+}
+
+.mainbar ul li{
+    margin-left: 50px;
+}
+
+li[class~="c-1"]{
+    width: 1480px;
+    height: 100%;
+    background-color: rgb(196, 233, 196);
+    margin-bottom: -10px;
+}
+
+li[class$="2"]{
+    width: 1480px;
+    height: 100%;
+    background-color: rgb(179, 237, 244);
+    margin-bottom: -10px;
+}
+
+li[class="c-3"]{
+    width: 1480px;
+    height: 100%;
+    color: red;
+    background-color: rgb(196, 233, 196);
+    margin-bottom: -10px;
+}
+
+.mainbar ul li::selection{
+    color: red;
+    background-color: yellow;
+}

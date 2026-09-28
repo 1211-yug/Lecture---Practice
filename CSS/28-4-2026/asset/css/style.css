@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1720px;
+    height: auto;
+    justify-items: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 400px;
+    height: auto;
+    margin-block: 30px;
+}
+
+.product > img{
+    width: 315px;
+    height: 350px;
+}
+
+.product > h4{
+    font-size: 20px;
+}
+
+.product > p{
+    padding-block: 10px;
+    color: rgb(112, 110, 110);
+    font-weight: 900;
+}
+
+.lookbook, .lookbook2{
+    position: relative;
+}
+
+.lookbook img{
+    width: 700px;
+    margin-top: 20px;
+}
+
+.lookbook2 img{
+    width: 770px;
+    margin-top: 20px;
+}
+
+.lookbook .text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+
+.lookbook2 .text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+
+.text h1{
+    font-size: 40px;
+}
+
+.header-text{
+    margin-top: 30px;
+}
+
+.image img{
+    width: 1720px;
+    margin-top: 50px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding: 40px 0px;
+    background-color: #fffdfd;
+}
+
+.box{
+    margin-inline: 70px;
+    text-align: center;
+    width: 230px;
+}
+
+.box i{
+    color: rgb(173, 173, 173);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.box h3{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.box p{
+    font-size: 18px;
+    color: gray;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(41, 41, 89);
+}
+
+
+.footdiv{
+    width: 1920px;
+    height: auto;
+    justify-items: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.footer1{
+    width: 330px;
+    height: auto;
+    font-size: 20px;    
+}
+
+.footer1 > h1{
+    font-size: 70px;
+}
+
+.text{
+    color: rgb(171, 169, 169);
+}
+
+.text > .address{
+    padding-block: 40px 20px;
+}
+
+.text > span{
+    line-height: 2.8;
+}
+
+.text > .icon{
+    letter-spacing: 10px;
+}
+
+.text > .speace{
+    margin-top: 50px;
+    font-size: 21px;
+}
+
+.text .speace p{
+    line-height: 2;
+}
+
+.footer2{
+    margin-top: 30px;
+}
+
+.footer3{
+    width: 330px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.footer3 .text .speace p{
+    margin-bottom: 25px;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 15px 3px 18px 5px;
+}
+
+.btn > input{
+    font-size: 13px;
+    border: none;
+    background-color:rgb(41, 41, 89);
+}
+
+.btn > button{
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.footer3 .text .icon{
+    margin-top: 20px;
+    font-size: 25px;
+}

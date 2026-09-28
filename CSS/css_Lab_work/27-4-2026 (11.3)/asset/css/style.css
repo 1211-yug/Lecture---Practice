@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEF2F7;
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+    color: white;
+    background-color: #2C3E50;
+    padding: 30px;
+    text-align: center;
+}
+
+.side{
+    width: 250px;
+    height: 920px;
+    padding: 40px 20px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-right: 1px solid gray;
+    box-shadow: 1px 1px 10px black;
+}
+
+.side > p{
+    padding-block: 5px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+.cards{
+    position: absolute;
+    top: 80px;
+    left: 360px;
+}
+
+.rev{
+    position: relative;
+}
+
+.rev > .mnote{
+    width: 260px;
+    height: 220px;
+    background-color: #FFF9C4;
+    box-shadow: 1px 1px 10px black;
+    padding: 30px;
+    position: absolute;
+}
+
+
+.rev > .glist{
+    width: 260px;
+    height: 220px;
+    background-color: #C8E6C9;
+    box-shadow: 1px 1px 10px black;
+    padding: 30px;
+    position: absolute;
+    top: 65px;
+    left: 410px;
+}
+
+.rev > .aidea{
+    width: 260px;
+    height: 220px;
+    background-color: #FFE0B2;
+    box-shadow: 1px 1px 10px black;
+    padding: 30px;
+    position: absolute;
+    top: 130px;
+    left: 795px;
+}
+
+.rev > .tgoals{
+    width: 260px;
+    height: 220px;
+    background-color: #BBDEFB;
+    box-shadow: 1px 1px 10px black;
+    padding: 30px;
+    position: absolute;
+    top: 205px;
+    left: 1190px;
+}
+
+.fix-btn{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #2C3E50;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.fix-btn > button{
+    background-color: #FFFFFF;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}

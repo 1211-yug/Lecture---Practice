@@ -1,0 +1,70 @@
+
+body > h1:nth-of-type(2), body > h1:nth-of-type(5), body > h1:nth-of-type(9){
+    color:red;
+    background-color: yellow;
+}
+
+a:first-child,a:nth-child(4){
+    color: red;
+    background-color: yellow;
+}
+
+div:nth-of-type(1) >  h1:nth-of-type(1){
+    color:red;
+	background-color: yellow;
+}
+
+div:first-child > h1:last-of-type{
+    color:red;
+	background-color: yellow;
+}
+
+input{
+    color:red;
+    background-color: yellow;
+}
+
+li > h1:first-child{
+    color:red;
+    background-color: yellow;
+}
+
+.heading{
+    color:red;
+	background-color: yellow;
+}
+
+.head{
+    color:red;
+    background-color: yellow;
+}
+
+div:nth-of-type(2) h1:nth-of-type(2){
+    color:red;
+	background-color: yellow;
+}
+
+span p:last-of-type{
+    color:red;
+    background-color: yellow;
+}
+
+nav > h1:first-of-type{
+    color:red;
+	background-color: yellow;
+}
+
+section > h1:last-child{
+    color:red;
+	background-color: yellow;
+}
+
+body > h1:nth-last-of-type(4){
+    color:red;
+	background-color: yellow;
+}
+
+body > h1:last-of-type{
+    color:red;
+	background-color: yellow;
+}	

@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(238, 234, 28, 0.719);
+}
+
+.navbar{
+    background-color: #1a1a1a;
+    padding: 30px;
+}
+
+.nav-menu{
+    display: none;
+    list-style: none;
+}
+
+.nav-menu .active{
+    display: block;
+}
+
+.nav-menu li{
+    padding: 8px, 0;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu a:hover{
+    width: 100%;
+    cursor: pointer;
+    color: black;
+    background-color: rgba(252, 255, 101, 0.671);
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.menu{
+    border: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.container{
+    display: grid;
+    gap: 20px;
+    padding: 16px;
+}
+
+h1{
+    margin-block: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+
+}
+
+.card:hover{
+    transform: scale(1.07);
+    transition-duration: 1s;
+}
+
+.card .img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(247, 155, 94);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.card .img img{
+    width: 100px;
+    height: auto;
+}
+
+

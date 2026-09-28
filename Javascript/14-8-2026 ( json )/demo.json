@@ -1,0 +1,30 @@
+{
+    "student": [
+        {
+            "name": "Yug",
+            "course": "FSD",
+            "bri-date": "12/11/2007"
+        },
+        {
+            "name": "Prince",
+            "course": "FSD",
+            "bri-date": "1/4/2007"
+        },
+        {
+            "name": "Ayush",
+            "course": "FSD",
+            "bri-date": "2/1/2007"
+        },
+        {
+            "name": "Akshat",
+            "course": "FSD",
+            "bri-date": "8/9/2007"
+        }
+    ],
+
+    "product":[
+        {
+            "pr-name":""
+        }
+    ]
+}

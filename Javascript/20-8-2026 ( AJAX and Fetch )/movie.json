@@ -1,0 +1,76 @@
+{
+    "movies": [
+        {
+            "Title": "THE LIFE OF CHUCK",
+            "Year": "2024",
+            "Time": "111 minutes",
+            "Poster": "https://i.pinimg.com/736x/bf/db/59/bfdb59f25b3ca8debba60aa90fe57c21.jpg"
+        },
+        {
+            "Title": "Oppenheimer ",
+            "Year": "2023",
+            "Time": "180 minutes",
+            "Poster": "https://i.pinimg.com/736x/74/fa/68/74fa6885bb5f81d12f3355f91b548774.jpg"
+        },
+        {
+            "Title": "REDEMPTION",
+            "Year": "2024",
+            "Time": "164 minutes",
+            "Poster": "https://i.pinimg.com/736x/30/73/b9/3073b976643172d424d912959f899733.jpg"
+        },
+        {
+            "Title": "The Revenge Dhurandhar",
+            "Year": "2026",
+            "Time": "232 minutes",
+            "Poster": "https://i.pinimg.com/736x/3e/a0/d1/3ea0d103001888e54e752385e0d6b0bd.jpg"
+        },
+        {
+            "Title": "JANA Nayagan",
+            "Year": "2026",
+            "Time": "183 minutes",
+            "Poster": "https://i.pinimg.com/736x/a5/12/67/a512679f65c5c92ab5e6d2a46986e71d.jpg"
+        },
+        {
+            "Title": "Kalki",
+            "Year": "2024",
+            "Time": "181 minutes",
+            "Poster": "https://i.pinimg.com/736x/ea/77/61/ea776196364418dc9fc6657a5e956b9d.jpg"
+        },
+        {
+            "Title": "TOXIC",
+            "Year": "2026",
+            "Time": "195 minutes",
+            "Poster": "https://i.pinimg.com/736x/30/ed/25/30ed253f7fe82e1813537bdd82382838.jpg"
+        },
+        {
+            "Title": "Pathan",
+            "Year": "2023",
+            "Time": "146 minutes ",
+            "Poster": "https://i.pinimg.com/736x/f9/01/fc/f901fc3730051a2a789c96cccdc05f17.jpg"
+        },
+        {
+            "Title": "Baahubali 2",
+            "Year": "2017",
+            "Time": "167 minutes",
+            "Poster": "https://i.pinimg.com/736x/40/aa/4e/40aa4e597b0fb5c7d00bb54b1b2a0362.jpg"
+        },
+        {
+            "Title": "ALPHA",
+            "Year": "2026",
+            "Time": "140 minutes",
+            "Poster": "https://i.pinimg.com/736x/cd/f9/9c/cdf99ccfeaf6887b3f8380fe085ed5fa.jpg"
+        },
+        {
+            "Title": "ANIMAL",
+            "Year": "2023",
+            "Time": "203 minutes",
+            "Poster": "https://i.pinimg.com/736x/c7/99/8c/c7998c3a4475d2b8a635c9a654fd3da1.jpg"
+        },
+        {
+            "Title": "Jumanji The Next Level",
+            "Year": "2019",
+            "Time": "122 minutes",
+            "Poster": "https://i.pinimg.com/736x/ae/be/de/aebedea565116005359ffa4b29344622.jpg"
+        }
+    ]
+}

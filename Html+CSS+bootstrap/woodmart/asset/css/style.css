@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Albert Sans", sans-serif;
+}
+
+.nav-icons span i {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600 !important;
+}
+
+.nav-link {
+    transition: all 0.1s;
+}
+
+.nav-link:hover {
+    color: #FB6A1C !important;
+    border-radius: 20px;
+    background-color: #FDD9C8;
+}
+
+.badge {
+    top: 10px !important;
+    padding: 3px 5px !important;
+    font-size: 11px;
+}
+
+.bg-body-color {
+    background-color: #E9E9E9;
+}
+
+.img-1 {
+    max-width: 60px;
+}
+
+.shop-btn {
+    background-color: #FB6A19;
+}
+
+.shop-btn:hover {
+    background-color: #FB6A19;
+    opacity: 0.9 !important;
+}
+
+/* card Section */
+.custom-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-card img {
+    transition: transform 0.5s ease;
+}
+
+.custom-card:hover img {
+    transform: scale(1.05);
+}
+
+.custom-card video {
+    transition: transform 0.5s ease;
+}
+
+.custom-card:hover video {
+    transform: scale(1.05);
+}
+
+.badge-custom {
+    background: #7c5cff;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 12px;
+}
+
+.btn-orange {
+    background: #ff6a00;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-orange:hover {
+    background: #e55d00;
+    color: white;
+}
+
+.card-img-overlay-1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+}
+
+.tiny-5 {
+    font-family: "Tiny5", sans-serif;
+}
+
+/* Product Section */
+.prd-sec .card {
+    border: none !important;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card img {
+    transition: all 0.4s ease;
+}
+
+.prd-sec .card:hover img {
+    transform: scale(1.1);
+}
+
+.card-body {
+    position: absolute;
+    bottom: -10px;
+    z-index: 10;
+}
+
+.card-body h3 {
+    transition: all 0.4s ease;
+}
+
+.prd-sec .card:hover .card-body h3 {
+    transform: translateY(-20px);
+}
+
+.card-body p {
+    position: absolute;
+    bottom: -100px;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+
+.prd-sec .card:hover .card-body p {
+    transform: translateY(-120px);
+}
+
+/* Marquee */
+.offer-bar {
+    padding: 20px 0 0;
+    overflow: hidden;
+}
+
+.offer-item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.offer-item img {
+    object-fit: contain;
+}
+
+.view-btn a:hover{
+    color: white !important;
+}
+
+/* Product card */

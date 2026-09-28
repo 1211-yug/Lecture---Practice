@@ -1,0 +1,49 @@
+@media (min-width:768px){
+    .menu{
+        display: none;
+    }
+
+    .nav-menu{
+        display: flex !important;
+        justify-content: space-around;
+    }
+
+    .nav-menu li{
+        padding: 0;
+    }
+
+    .container{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 24px;
+        padding: 24px;
+    }
+
+    .card{
+        padding: 24px;
+    }
+}
+
+@media (min-width:1440px){
+    .menu{
+        display: none;
+    }
+
+    .nav-menu{
+        display: flex !important;
+        justify-content: space-around;
+    }
+
+    .nav-menu li{
+        padding: 0;
+    }
+
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        padding: 24px;
+    }
+
+    .card{
+        padding: 24px;
+    }
+}

@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+}
+
+.bg1{
+	height: 300px;
+	background-color: rgb(12, 12, 12);
+}
+
+.bg2{
+	height: 300px;
+	background-color: hsl(200, 100%, 50%);
+}
+
+.bg3{
+	height: 300px;
+	background-image: url(../image/bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-clip: border-box;
+	/*background-attachment: fixed;	*/
+	background-origin: content-box;
+	background-repeat: no-repeat;
+}
+
+.bg4{
+	height: 300px;
+	background: #ada8ff;
+	background: linear-gradient(100deg, rgba(173, 168, 255, 1) 0%, rgba(9, 9, 121, 1) 47%, rgba(0, 212, 255, 1) 100%);
+}
+
+.bg5{
+	height: 300px;
+	background: #3F5EFB;
+	background: radial-gradient(circle, rgba(63, 94, 251, 1) 25%, rgba(252, 70, 107, 1) 92%);
+}

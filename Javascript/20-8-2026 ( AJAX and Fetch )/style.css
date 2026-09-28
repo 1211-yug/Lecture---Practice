@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(36, 33, 33);
+    color: white;
+}
+
+.title {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.Api {
+    height: 94vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.maintitle {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.para {
+    font-size: 24px;
+    padding: 0 0 20px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin: 20px 0 30px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px #fff;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background: rgb(232, 226, 226);
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jstitle {
+    padding: 10px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Movie */
+
+.movieCard {
+    width: 350px;
+    height: 540px;
+    color: black;
+    background: rgb(232, 226, 226);
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.movieCard img {
+    height: 430px;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.movieCard .mvtitle {
+    padding: 15px 20px;
+}
+
+.yeartime {
+    padding: 10px 20px;
+}
+
+/* Covid-19 */
+
+.flex1 {
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: none;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+#countryHeader{
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul li {
+    line-height: 30px;
+}

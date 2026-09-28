@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #595959;
+}
+
+.food-card{
+    width: 800px;
+    height: 200px;
+    background-color: #30302E;
+    padding: 12px;
+    align-items: center; 
+    margin: 40px auto;
+    overflow-x: scroll;
+    display: flex;
+    gap: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.food1{
+    width: 150px;
+    height: 150px;
+    background-color: #615e5e;
+    text-align: center;
+    padding: 22px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    flex: 0 0 150px;
+
+}
+
+.food1 h4{
+    color: white;
+    padding-block: 5px;
+}
+
+.food1 p{
+    color: rgb(182, 180, 180);
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    margin: auto;  
+    gap: 10px;
+    background-color: #30302E;
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid #9c9b9b;
+}
+
+ 
+.sidebar{
+    flex: 0 0 130px; 
+    overflow-y: auto;  
+    background-color:  #615e5e;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #949292;
+}
+
+.side-item{
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ddd8d8;
+    margin-bottom: 2px;
+}
+
+.active{
+    color: #010101;
+    font-weight: 600;
+}
+
+.main{
+    flex: 1;               
+    overflow-y: auto;       
+    background-color:  #615e5e;
+    border-radius: 8px;
+    padding: 14px;
+    border: 1px solid #a1a0a0;
+}
+
+.content-block{
+    margin-bottom: 16px;
+}
+
+.content-block h3{
+    font-size: 16px;
+    color: #060606;
+    margin-bottom: 8px;
+}
+
+.content-block p{
+    font-size: 15px;
+    color: #e9e9e9;
+    line-height: 1.5;
+}
+
+.card{
+    width: 700px;
+    height: 255px;
+    background-color: #30302E;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.card-header{
+    padding: 15px 18px;
+}
+
+.card-header h2{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card-header span{
+    font-size: 19px;
+    color: #fff8f8;
+    background-color: #7b7b7b;
+    padding: 4px 7px;
+    border-radius: 4px;
+}
+
+.card-body{
+    padding: 14px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-1{
+    font-size: 18px;
+    color: #fff4f4;
+    background-color: #615e5e;
+    border: 1px solid #b3b3b3;
+    border-radius: 6px;
+    padding: 7px 12px;
+    margin-top: 10px;
+    overflow: hidden;
+}
